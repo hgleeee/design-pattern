@@ -32,7 +32,7 @@
 5) 알고리즘을 다양하게 변경할 수 있게 한다. → 메소드를 통해 전략 객체를 실시간으로 변경함으로써 전략을 변경
 
 ## 흐름
-<p align="center"><img src="./images/strategy_pattern_class_diagram.png" width="600"></p>
+<p align="center"><img src="./images/strategy_pattern_class_diagram.PNG" width="600"></p>
 
 ```java
 // 전략(추상화된 알고리즘)
@@ -68,7 +68,7 @@ class Context {
 }
 ```
 
-<p align="center"><img src="./images/strategy_pattern_seq_diagram.png" width="600"></p>
+<p align="center"><img src="./images/strategy_pattern_seq_diagram.PNG" width="600"></p>
 
 ```java
 // 클라이언트(전략 교체/전략 실행한 결과를 얻음)
