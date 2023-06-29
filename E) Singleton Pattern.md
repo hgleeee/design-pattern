@@ -174,7 +174,7 @@ class Singleton {
 - 그러나 volatile 키워드를 이용하기 위해선 JVM 1.5이상이어야 되고, JVM에 대한 심층적인 이해가 필요하여, JVM에 따라서 여전히 쓰레드 세이프 하지 않는 경우가 발생하기 때문에 사용하기를 지양하는 편이다.
 
 #### volatile 키워드
-<p align="center"><img src="./images/volatile_keyword.png" width="500"></p>
+<p align="center"><img src="./images/volatile_keyword.png" width="300"></p>
 
 - Java에서는 쓰레드를 여러 개 사용할 경우, 성능을 위해서 각각의 쓰레드들은 변수를 메인 메모리(RAM)으로부터 가져오는 것이 아니라 캐시(Cache) 메모리에서 가져오게 된다.
 - 문제는 비동기로 변수값을 캐시에 저장하다가, 각 쓰레드마다 할당되어 있는 캐시 메모리의 변수값이 일치하지 않을 수 있다는 점이다.
