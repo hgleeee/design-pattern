@@ -14,7 +14,7 @@
 
 - ℹ️ ISubject : 관찰 대상자를 정의하는 인터페이스
 - ℹ️ ConcreteSubject : 관찰 당하는 대상자 / 발행자 / 게시자
-  - ✅ Observer들을 리스트(List, Map, Set ..등)로 모아 합성(compositoin)하여 가지고 있음
+  - ✅ Observer들을 리스트(List, Map, Set ..등)로 모아 합성(composition)하여 가지고 있음
   - ✅ Subject의 역할은 관찰자인 Observer들을 내부 리스트에 등록/삭제 하는 인프라를 갖고 있다. (register, remove)
   - ✅ Subject가 상태를 변경하거나 어떤 동작을 실행할때, Observer 들에게 이벤트 알림(notify)을 발행한다.
 - ℹ️ IObserver : 구독자들을 묶는 인터페이스 (다형성)
