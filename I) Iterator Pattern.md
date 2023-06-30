@@ -10,7 +10,7 @@
 - 이 밖에도 이터레이터 패턴은 별도의 이터레이터 객체를 반환받아 이를 이용해 순회하기 때문에, 집합체의 내부 구조를 노출하지 않고 순회할 수 있다는 장점도 있다.
 
 ## 구조
-<p align="center"><img src="./images/iterator_adapter_struct.png" width="600"></p>
+<p align="center"><img src="./images/iterator_pattern_struct.png" width="600"></p>
 
 - 🐳 Aggregate (인터페이스) : ConcreateIterator 객체를 반환하는 인터페이스를 제공한다.
   - 🍀 iterator() : ConcreateIterator 객체를 만드는 팩토리 메서드
