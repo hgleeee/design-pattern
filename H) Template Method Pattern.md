@@ -12,7 +12,7 @@
 - 🐳 __ConcreteClass(구현 클래스)__ : AbstractClass를 상속하고 추상 메소드를 구체적으로 구현한다. ConcreteClass에서 구현한 메소드는 AbstractClass의 템플릿 메소드에서 호출된다.
 
 ### hook 메소드
-<p align="center"><img src="./images/template_method_pattern_struct_2.png" width="600"></p>
+<p align="center"><img src="./images/template_method_pattern_struct_2.png" width="400"></p>
 
 - 훅(hook) 메소드는 부모의 템플릿 메서드의 영향이나 순서를 제어하고 싶을때 사용되는 메서드 형태를 말한다.
 - 위의 그림에서 보듯이 템플릿 메서드 내에 실행되는 동작을 step2()라는 메서드의 참, 거짓 유무에 따라 다음 스텝을 어떻게 이어나갈지 지정한다.
