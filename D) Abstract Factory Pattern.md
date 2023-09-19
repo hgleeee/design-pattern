@@ -5,7 +5,7 @@
 - 즉, 추상 팩토리의 핵심은 제품 '군' 집합을 타입별로 찍어낼 수 있다는 점이 포인트이다.
 
 ## 구조
-<p align="center"><img src="./images/abstract_pattern_struct.png" width="600"></p>
+<p align="center"><img src="./images/abstract_factory_struct.png" width="600"></p>
 
 - 🐳 __AbstractFactory__ : 최상위 공장 클래스, 여러 개의 제품들을 생성하는 여러 메소드들을 추상화한다.
 - 🐳 __ConcreteFactory__ : 서브 공장 클래스들은 타입에 맞는 제품 객체를 반환하도록 메소드들을 재정의한다.
@@ -116,7 +116,7 @@ class Client {
 - 그런데 컴퓨터 OS에는 윈도우(Window)와 맥(Mac) 종류가 나뉘는데 어떤 OS인가에 따라서 모양이 달라질 수 있기 때문에 각기 생성하여 구현하여야 한다고 한다.
 - 정리하면 이 3가지 객체들은 하나의 컴포넌트(Component) 군으로 묶을 수 있으며 또한 OS별 군으로 나뉘게 된다.
 
-<p align="center"><img src="./images/abstract_pattern_ex.png" width="600"></p>
+<p align="center"><img src="./images/abstract_factory_ex.png" width="600"></p>
 
 ```java
 interface Component {
