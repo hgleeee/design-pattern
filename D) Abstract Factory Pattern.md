@@ -116,7 +116,7 @@ class Client {
 - 그런데 컴퓨터 OS에는 윈도우(Window)와 맥(Mac) 종류가 나뉘는데 어떤 OS인가에 따라서 모양이 달라질 수 있기 때문에 각기 생성하여 구현하여야 한다고 한다.
 - 정리하면 이 3가지 객체들은 하나의 컴포넌트(Component) 군으로 묶을 수 있으며 또한 OS별 군으로 나뉘게 된다.
 
-<p align="center"><img src="./images/abstract_factory_ex.png" width="600"></p>
+<p align="center"><img src="./images/abstract_factory_ex.PNG" width="600"></p>
 
 ```java
 interface Component {
